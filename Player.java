@@ -48,6 +48,7 @@ public class Player {
                 count++;
                 this.score += vehicle.getPoints();
             }
+            
         } while (!finished); // 如果finished为false，继续游戏。
         // 游戏结束后，输出玩家的得分和玩过的车辆数量。
         System.out.printf("%d points scored from %d vehicles\n\n", this.score, count);
