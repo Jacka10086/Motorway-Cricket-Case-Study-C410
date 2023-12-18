@@ -30,7 +30,6 @@ public class Team {
             this.players[i] = new Player(name);
         }
     }
-
     // play方法模拟了整个团队的游戏过程，并返回团队的总得分。
     public int play() {
         // 定义score变量来累计团队的得分。
