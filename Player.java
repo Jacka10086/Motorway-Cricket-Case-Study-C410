@@ -13,7 +13,6 @@ public class Player {
         // 初始化得分为0。
         this.score = 0;
     }
-
     // 公共方法getScore，用于获取玩家的得分。
     public int getScore() {
         // 返回玩家的得分。
